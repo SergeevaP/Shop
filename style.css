@@ -1,0 +1,38 @@
+li {
+    list-style-type: none;
+   }
+#container {
+    background-color:#f6d2ac;
+    max-width:1200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    min-width:600px;
+    overflow: hidden;
+    padding:50px;
+    
+}
+body {
+    background: rgb(66,40,28);
+    background: -moz-linear-gradient(0deg, rgba(66,40,28,1) 0%, rgba(214,131,79,1) 49%, rgba(230,174,116,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(66,40,28,1) 0%, rgba(214,131,79,1) 49%, rgba(230,174,116,1) 100%);
+    background: linear-gradient(0deg, rgba(66,40,28,1) 0%, rgba(214,131,79,1) 49%, rgba(230,174,116,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#42281c",endColorstr="#e6ae74",GradientType=1);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:rgba(66,40,28,1);
+
+}
+a {
+    text-decoration: none;
+    color:rgba(66,40,28,1);
+}
+.down {
+    position: absolute;
+    bottom: 40px;
+}
