@@ -62,3 +62,12 @@ a {
     }
     
 }
+
+.goods {
+    display: inline-block;
+    border: 2px solid #afacac;
+    height: 400px;
+    width: 348px;
+    margin: 20px;
+
+}
