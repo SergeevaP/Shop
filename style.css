@@ -40,7 +40,7 @@ a {
     display: inline;
     margin:20px;
 }
-.menu_cell:hover {
+.chosen {
     color:#4EA2CF;
 }
 
@@ -67,7 +67,34 @@ a {
     display: inline-block;
     border: 2px solid #afacac;
     height: 400px;
-    width: 348px;
+    width: 328px;
     margin: 20px;
+    padding: 10px;
 
+}
+.goods:hover .btn_buy {
+    opacity: 100%;
+}
+.goods:hover .immmg {
+    transform: scale(1.1);
+}
+
+.btn_buy {
+    margin: auto;
+    opacity: 0%;
+}
+
+
+.immmg {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    display: block;
+}
+
+.discr {
+    height:80px;
+    width:100%;
+    font-size: 0.8em;
+    color:#818181;
 }
