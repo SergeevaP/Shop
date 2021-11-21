@@ -2,12 +2,35 @@
 <html>
 	<head>
 	<meta charset="utf-8">
-	<title>Главная</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
+	<title>О нас</title>
 	</head>
-	<body style="padding:60px;">
-		<a href="index.html"><img src='logo.png' width='300px'></a>
-        <h1>Ooops! Page seems empy.</h1>
-        <hr>
-		<center><span>Азон</span></center>
+	<body>
+		<div class='header'><a href="index.html" style='color:white; position: absolute; top: 55px; left:150px'>Азон</a></div>
+		<div class='menu'>
+			<a href='index.html'><div  class='menu_cell'>Главная</div></a>
+			<a href='catalog.html'><div  class='menu_cell'>Каталог</div></a>
+			<a href='#'><div  class='menu_cell chosen'>О нас</div></a>
+			<a> <div class="menu_cell" style="
+				position: relative;
+				right: -1021px;
+			">Корзина</div></a>
+
+		</div>
+		<div id='container'> 
+			<div style='display: inline-block;vertical-align:top;'><span>Ваш отзыв очень важен для нас(нет)!</span><br><br><input type="text" placeholder="Введите имя и email"></input><br><br>
+				<textarea style='height: 143px; margin: 0px; min-width: 600px; max-width: 600px; max-height: 300px;'></textarea>
+				<br><button>Submit</button> 
+			</div>
+
+			<div style="position:relative;overflow:hidden; display: inline-block;"><a href="https://yandex.ru/maps/org/gbou_baumanskaya_inzhenernaya_shkola_1580_korp_1/1119884145/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">ГБОУ Бауманская инженерная школа № 1580, корп. № 1</a><a href="https://yandex.ru/maps/213/moscow/category/school/184106240/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Общеобразовательная школа в Москве</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUquVeO8A" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+		</div>
+		<center><span style="position: sticky; bottom: 10px"><br>Азон<br></span></center>
+		<br>
 	</body>
-</html>
+</html
+
+
