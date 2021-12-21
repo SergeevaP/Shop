@@ -1,3 +1,6 @@
+$sqlite3 DatabaseName.db
+
+
 CREATE TABLE goods (
     id       INTEGER PRIMARY KEY AUTOINCREMENT
                      UNIQUE
